@@ -1,12 +1,12 @@
 import React from 'react'
 import Sidebar from './components/sidebar/Sidebar'
-import Main from './components/main'
+import Mainbar from './components/mainbar/Mainbar'
 
 function App() {
   return (
     <>
       <Sidebar />
-      <Main />
+      <Mainbar/>
     </>
   )
 }
